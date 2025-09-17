@@ -49,14 +49,45 @@ else:
     '''
 #questao 8 
 '''
-nome = input("digite seu nome")
-encontrar = "res"
-if encontrar in nome
-    print("esta no nome tavares")
+nome = input("digite seu nome:")
+encontrar = "ares"
+if encontrar in nome:
+    print(f'{encontrar} esta em {nome}')
 else:
-    print("nao esta no nome tavares") 
+    print(f'{encontrar} nao esta em {nome}')
     '''
+
 #questao 9
-
+'''
+nome = input("digite seu nome:")
+encontrar = "tes"
+if encontrar not in nome:
+    print(f'{encontrar} nao esta em {nome}')
 #questao 10
+'''
+#questao 10
+'''
+letra = input("digite uma letra")
+nome = "tavares"
+if letra in nome:
+    print(f'{letra} esta em {nome}')
+else:
+    print(f'{letra} nao esta em {nome}')
+    '''
+#questao 11
+'''
+letra = input("digite uma letra")
+nome = "glestiano"
+if letra not in nome:
+    print(f'{letra} nao esta em {nome}')
+else:
+    print(f'{letra} esta em {nome}')
+'''
+#questao 12
 
+letra = input("digite uma letra")
+nome = "glestiano"
+if letra in nome:
+    print(f'{letra} esta em {nome}')
+else:
+    print(f'{letra} nao esta em {nome}') 
