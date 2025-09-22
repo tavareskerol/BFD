@@ -1,4 +1,4 @@
-#questao 1 tavares
+#questao 1 
 '''
 nome = "tavares"
 print(nome[1])
